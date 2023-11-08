@@ -1,0 +1,41 @@
+.sec-border{
+    background: #E74040;
+    width: 70px;
+    height: 5px;
+    margin: 0px 100px 0px 0px;
+}
+.link_a{
+    transition: all 0.5s ease-in-out;
+}
+.link_a:hover{
+    padding-left: 10px;
+}
+.img1{
+    position: relative;
+    top: -80px;
+    left: 40px;
+}
+.img2{
+    margin-top: -60px;
+}
+@media screen and (max-width: 768px) {
+    .img1{
+        position: relative;
+        top: 30px;
+        left: 0px;
+    }
+    .img2{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .img1{
+        position: relative;
+        top: 30px;
+        left: 0px;
+    }
+    .img2{
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,86 @@
+.sec2-img, .sec2-img1,
+.sec2-img2,.sec2-img3{
+    background-image: url(../../assets/img/product-cover-66.png);
+    width: 238px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.sec2-img1{
+    background-image: url(../../assets/img/product-cover-65.png);
+}
+.sec2-img2{
+    background-image: url(../../assets/img/product-cover-63.png);
+}
+.sec2-img3{
+    background-image: url(../../assets//img/product-cover-64.png);
+}
+.sec2-img:hover, .sec2-img1:hover,
+.sec2-img2:hover,.sec2-img3:hover{
+    transform: scale(1.1);
+}
+.sale{
+    width: 51px;
+    height: 24px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 0px, 20px, 0px, 20px;
+    border-radius: 3px;
+    background: #E74040;
+}
+.tree-icon .borde{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: white;
+    position: relative;
+    top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-bas .note{
+    width: 60px;
+    height: 26px;
+    border-radius: 20px;
+    gap: 5px;
+    background: #252B42;
+    text-align: center;
+}
+
+.col-bas-btn{
+    padding: 15px 25px 15px 25px;
+    border-radius: 55px;
+    color: #23A6F0;
+    border-color: $color-1;
+    background: none;
+}
+.col-bas-btn:hover{
+    background: #23A6F0;
+    color: white;
+    border-color: #23A6F0;
+}
+
+@media screen and (max-width:768px) {
+    .section_2 .row{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .section_2 .row .col-md-3{
+        margin-left: 50px;
+        width: 75%;
+    }
+}
+@media screen and (max-width:576px) {
+    .section_2 .row{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .section_2 .row .col-md-3{
+        margin-left: 0px;
+    }
+}

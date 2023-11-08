@@ -1,0 +1,21 @@
+.join-us{
+    background-color: $background-2;
+    padding: 10px 15px 10px 15px;
+    margin-left: 5px;
+}
+.login{
+    background: none;
+    padding: 10px 15px 10px 15px;
+    border-color: $color-1;
+}
+.join-us:hover,
+.login:hover{
+    background: transparent;
+    border-color: $color-1;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler{
+    background: $background-2;
+}

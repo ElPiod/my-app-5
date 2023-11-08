@@ -1,0 +1,44 @@
+.header{
+    background: $background-1;
+}
+
+.header-contact .join-us,
+.header-contact .login{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+}
+.header_card{
+    width: 328px;
+    height: 292px;
+    padding: 35px, 40px, 35px, 40px;
+    gap: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.icon_card{
+    margin: 20px 0px 0px 20px;
+    width: 70px;
+    height: 76px;
+    padding: 22px, 19px, 22px, 19px;
+    border-radius: 10px;
+    background: #FFDCD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_card.card1{
+    background: #B9EAA8;
+}
+.icon_card.card2{
+    background: #fff;
+}
+.text-card{
+    margin: 20px 0px 0px 20px;
+}
+.mini-borde{
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+.header_card:hover{
+    transform: scale(1.1);
+}
